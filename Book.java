@@ -56,7 +56,15 @@ public int getPages()
     
 public void setRefNumber(String ref)
     {
+        
+        if(refNumber.length() >= 3){
         refNumber = ref;
+        }
+        else {
+        refNumber = "";    
+        System.out.println("Please enter at leat 3 charaters.");
+        }
+            
     }
     
 public String getRefNumber()
