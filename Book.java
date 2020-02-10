@@ -79,6 +79,11 @@ public String getRefNumber()
 public void borrow()
     {
         borrowed = borrowed + 1;
+    } 
+    
+public int getBorrowed()
+    {
+        return borrowed;
     }    
 
 public boolean isCourseText()
